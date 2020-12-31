@@ -4,8 +4,7 @@ pipelines:
     steps:
 
       - name: jfrog_pipelines1
-        type: Bash 
-        configuration:         
+        type: Bash        
         execution:
           onExecute:
             - printenv 
