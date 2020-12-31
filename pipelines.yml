@@ -1,0 +1,11 @@
+pipelines:
+
+  - name: jfrog_pipelines
+    steps:
+
+      - name: jfrog_pipelines1
+        type: Bash 
+        configuration:         
+        execution:
+          onExecute:
+            - printenv 
